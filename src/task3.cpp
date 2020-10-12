@@ -3,11 +3,9 @@
 unsigned long long sumPrime(unsigned int hbound)
 {
 	unsigned long long sum = 0;
-	for (unsigned int i = 0; i < hbound; i++)
+	for (unsigned int i = 2; i < hbound; i++)
 	{
-		if (i == 1)
-			sum += i;
-		else if (i == 2)
+		if (i == 2)
 			sum += i;
 		else
 		{
